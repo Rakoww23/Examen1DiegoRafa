@@ -210,6 +210,8 @@ img {
   border-radius: 10px;
   font-weight: 600;
 }
+
+
 @media (max-width: 760px) {
   .nav-inner {
     align-items: flex-start;
