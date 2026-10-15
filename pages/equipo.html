@@ -4,90 +4,104 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>SAVIA | Nuestro equipo</title>
-    
     <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/rafael.css" rel="stylesheet" />
   </head>
   <body>
     <header class="site-header">
-      
+      <div class="container nav-inner">
+        <a class="logo" href="../index.html"> SAVIA. </a>
+        <nav aria-label="Navegaci&oacute;n principal" class="nav-links">
+          <a href="../index.html">Menú principal</a>
+          <a href="menu.html">Nuestra carta</a>
+          <a aria-current="page" href="#Personal">Personal</a>
+        </nav>
+      </div>
     </header>
 
-    <section class="page-hero">
+    <section class="equipo-hero">
       <div class="container">
         <span class="eyebrow"> SAVIA </span>
         <h1>Nuestro equipo</h1>
         <p>Las personas detr&aacute;s de cada experiencia.</p>
-        <a href="index.html">Menú principal</a>
-      <a href="menu.html">Nuestra carta</a>
-        <a href="#Personal">Personal</a>
+        <nav aria-label="Integrantes del equipo" class="brigada-botones">
+          <a class="boton-brigada" href="#chef">Chef</a>
+          <a class="boton-brigada" href="#ayudante">Ayudante</a>
+          <a class="boton-brigada" href="#gerente">Gerente de cocina</a>
+        </nav>
       </div>
     </section>
-    <main class="section container">
-      <!-- Espacio de trabajo: esta página está pendiente de implementación. -->
-      <section class="Presentación">
-        <div class="Introducción" id="Personal">
-          <h2 class=""> Conoce a todos los que están detrás de cada plato rico que comes</h2>
-        </div>
-      </section>
-      <section class="section container">
-        <div class="section-heading">
-          <span class="eyebrow"> Nuestro personal </span>
-          <h2>Las mejores manos para el mejor producto</h2>
-        </div>
-        <div class="feature-layout">
-          <article class="tile card-highlight">
-            <img
-              alt="Federico"
-              src="https://scdn.speedsize.com/653debbb-d4a4-43dc-aac9-c44f9620f59a/https://snibbs.co/cdn/shop/articles/Pros_and_Cons_of_Being_a_Chef.jpg?v=1688650492"
-            />
-            <div class="tile-copy">
-              <h3>Chef Federico Villalobos Gutierrez</h3>
-              <p>
-                El chef Federico es quien prepara los mejores alimentos para que sean del disfrute de cada uno. Cuenta con 20 años de experiencia
-                y ha sido galardonado como CHEF MASTER 2016
-              </p>
-              
-            </div>
-          </article>
-          <article class="tile">
-            <img
-              alt="Marta"
-              src="https://static.vecteezy.com/system/resources/thumbnails/059/334/554/small/a-woman-in-a-chef-hat-holding-a-plate-photo.jpg"
-            />
-            <div class="tile-copy">
-              <h3>Asitenta Marta Salazar Martinez</h3>
-              <p>Es la encargada de que cada instrumento en la cocina funcione correctamente, es la encargada de la limpieza, afilación y preparación
-                de cada instrumento, además de ser la mano derecha del Chef Federico
-              </p>
-            </div>
-          </article>
-          <article class="tile">
-            <img
-              alt="Andrew"
-              src="https://images.pexels.com/photos/32224390/pexels-photo-32224390.jpeg?cs=srgb&dl=pexels-tochukwu-ekeh-2149052634-32224390.jpg&fm=jpg"
-            />
-            <div class="tile-copy">
-              <h3>Gerente de cocina Andrew Gomez Martinez</h3>
-              <p>Es el encargado de que los platillos se realicen correctamente, es el encargado de supervisar la realización safisfactoria de los alimentos 
-                además de ser quien trata con los clientes para que todos esten satisfechos con los servicios del restaurant
-              </p>
-            </div>
-          </article>
-        </div>
-       <div class="statement">
-          <p class="statement-title" id="statement-title">
-            Como trabajamos juntos
-          </p>
-          <p>
-          Cada una de estas personas son los encargados de que tu platillo llegue a la mesa. Andrew es quien pasa las ordenes a Federico y
-          además es quien supervisa que no se le escape ningún detalle que el cliente haya pedido. Marta es la mano derecha de Federico y sin ella
-          Federico no tendría sus utensilios a mano para poder trabajar. 
-          </p>
-        </div>
-        
-      </section>
 
+    <main class="brigada-cocina container">
+      <div class="equipo-intro" id="Personal">
+        <h2>Conoce a todos los que están detrás de cada plato rico que comes</h2>
+      </div>
+
+      <div class="brigada-encabezado">
+        <span class="eyebrow"> Nuestro personal </span>
+        <h2>Las mejores manos para el mejor producto</h2>
+      </div>
+
+      <div class="brigada-lista">
+        <article class="integrante ficha-federico" id="chef">
+          <img
+            class="integrante-foto"
+            alt="Federico"
+            src="../images/Imagenes Rafa/Pros_and_Cons_of_Being_a_Chef.avif"
+          />
+          <div class="integrante-info">
+            <span class="etapa-numero">Etapa 1</span>
+            <h3>Chef Federico Villalobos Gutierrez</h3>
+            <p>
+              El chef Federico es quien prepara los mejores alimentos para que sean del disfrute de cada uno. Cuenta con 20 años de experiencia
+              y ha sido galardonado como CHEF MASTER 2016
+            </p>
+          </div>
+        </article>
+
+        <article class="integrante ficha-marta" id="ayudante">
+          <img
+            class="integrante-foto"
+            alt="Marta"
+            src="../images/Imagenes Rafa/a-woman-in-a-chef-hat-holding-a-plate-photo.jpg"
+          />
+          <div class="integrante-info">
+            <span class="etapa-numero">Etapa 2</span>
+            <h3>Asitenta Marta Salazar Martinez</h3>
+            <p>Es la encargada de que cada instrumento en la cocina funcione correctamente, es la encargada de la limpieza, afilación y preparación
+              de cada instrumento, además de ser la mano derecha del Chef Federico
+            </p>
+          </div>
+        </article>
+
+        <article class="integrante ficha-andrew" id="gerente">
+          <img
+            class="integrante-foto"
+            alt="Andrew"
+            src="../images/Imagenes Rafa/pexels-tochukwu-ekeh-2149052634-32224390.jpg"
+          />
+          <div class="integrante-info">
+            <span class="etapa-numero">Etapa 3</span>
+            <h3>Gerente de cocina Andrew Gomez Martinez</h3>
+            <p>Es el encargado de que los platillos se realicen correctamente, es el encargado de supervisar la realización safisfactoria de los alimentos 
+              además de ser quien trata con los clientes para que todos esten satisfechos con los servicios del restaurant
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="colaboracion-brigada">
+        <p class="colaboracion-titulo">
+          Como trabajamos juntos
+        </p>
+        <p>
+        Cada una de estas personas son los encargados de que tu platillo llegue a la mesa. Andrew es quien pasa las ordenes a Federico y
+        además es quien supervisa que no se le escape ningún detalle que el cliente haya pedido. Marta es la mano derecha de Federico y sin ella
+        Federico no tendría sus utensilios a mano para poder trabajar. 
+        </p>
+      </div>
     </main>
+
     <footer class="site-footer">
       <div class="container footer-inner">
         <strong> SAVIA. &middot; Cocina con prop&oacute;sito </strong>
@@ -99,5 +113,3 @@
     </footer>
   </body>
 </html>
-
-
