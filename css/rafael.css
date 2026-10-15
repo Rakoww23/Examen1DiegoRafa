@@ -1,0 +1,113 @@
+.equipo-hero {
+  background: var(--forest);
+  color: white;
+  padding: 55px 0;
+}
+.equipo-hero h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+.equipo-hero p {
+  max-width: 650px;
+  color: #d5e4db;
+}
+.brigada-botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.boton-brigada {
+  display: inline-block;
+  background: var(--gold);
+  color: #21372d;
+  padding: 12px 25px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.boton-brigada:hover {
+  filter: brightness(0.93);
+}
+.brigada-cocina {
+  padding-block: 68px;
+}
+.equipo-intro h2 {
+  font-size: 36px;
+  margin: 0 0 15px;
+}
+.brigada-encabezado {
+  max-width: 690px;
+  margin-top: 38px;
+}
+.brigada-encabezado h2 {
+  font-size: 36px;
+  margin: 0 0 15px;
+}
+.brigada-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 30px;
+}
+.integrante {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px #173b2d13;
+}
+.integrante-foto {
+  width: 40%;
+  height: 240px;
+  object-fit: cover;
+}
+.integrante-info {
+  flex: 1;
+  padding: 23px;
+}
+.integrante-info h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.integrante-info p {
+  margin: 0;
+}
+.etapa-numero {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--gold);
+}
+.ficha-federico {
+  border: 2px solid #d7a45b;
+}
+.colaboracion-brigada {
+  background: #ecf1e9;
+  padding: 26px;
+  border-left: 5px solid var(--gold);
+  border-radius: 5px;
+  margin-top: 38px;
+}
+.colaboracion-brigada p {
+  margin: 0;
+}
+.colaboracion-titulo {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--forest);
+}
+
+@media (max-width: 760px) {
+  .equipo-hero h1 {
+    font-size: 37px;
+  }
+  .integrante {
+    flex-direction: column;
+  }
+  .integrante-foto {
+    width: 100%;
+    height: 190px;
+  }
+}
