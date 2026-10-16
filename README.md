@@ -18,13 +18,16 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | Estudiante | Página asignada | Rama | Commits principales |
 |---|---|---|---|
-| | | | |
+| Diego Zamora|Menu |Diego |![alt text](image-7.png) |
+|Rafael Porras|Equipo|Rafael|![alt text](image-8.png)|
 
 ## Evidencias Git
 
 | Funcionalidad/corrección | PR hacia develop | Revisor | Resultado de merge / conflicto si ocurrió |
 |---|---|---|---|
-| | | | |
+| PR de develop a main| X|Diego  | ![alt text](image-6.png)|
 
 ## Verificación final
 Registrar las pruebas de funcionamiento a 1280 px y 375 px, enlaces y páginas.
+![alt text](image-9.png)
+![alt text](image-10.png)
